@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<div>Hello {{message}}</div>`,
+  template: `<div>Angular Static Web Apps - Hello {{message}} from Azure Functions</div>`,
 })
 export class AppComponent {
   message = '';
